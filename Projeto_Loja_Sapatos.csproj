@@ -21,4 +21,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Cliente\" />
+    <Folder Include="Views\Fornecedor\" />
+    <Folder Include="Views\Modelos\" />
+    <Folder Include="Views\Produtos\" />
+    <Folder Include="Views\Venda\" />
+  </ItemGroup>
+
 </Project>

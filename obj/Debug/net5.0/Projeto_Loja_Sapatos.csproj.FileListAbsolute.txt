@@ -55,8 +55,6 @@ C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Lo
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Projeto_Loja_Sapatos.TagHelpers.input.cache
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Projeto_Loja_Sapatos.TagHelpers.output.cache
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorCoreGenerate.cache
-C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -70,9 +68,10 @@ C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Lo
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\ref\Projeto_Loja_Sapatos.dll
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Projeto_Loja_Sapatos.pdb
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Projeto_Loja_Sapatos.genruntimeconfig.cache
-C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\CadastroModelo.cshtml.g.cs
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\CadastroFornecedor.cshtml.g.cs
+C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\Cliente.cshtml.g.cs
+C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\ListarFornecedor.cshtml.g.cs
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\ListarModelos.cshtml.g.cs
 C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\ListarVendas.cshtml.g.cs
-C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\Venda.cshtml.g.cs
+C:\Users\Victor\Desktop\Victor\Lets Code\ASP.NET\Projeto_Loja_Sapatos\Projeto_Loja_Sapatos\obj\Debug\net5.0\Razor\Views\Home\Produtos.cshtml.g.cs

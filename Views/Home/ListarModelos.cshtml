@@ -1,39 +1,181 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<h1 class="text-center titulos">Lista de Modelos</h1>
-<table class="table caption-top mt-5">
-    <thead class="table-dark">
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Tipo</th>
-            <th scope="col">Tamanho</th>
-            <th scope="col">Cor</th>
-            <th scope="col">Valor (R$)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Sapato</td>
-            <td>40</td>
-            <td>Preto</td>
-            <td>120,00</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Chinelo</td>
-            <td>40</td>
-            <td>Preto</td>
-            <td>100,00</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Sandália</td>
-            <td>38</td>
-            <td>Cinza</td>
-            <td>50,00</td>
-        </tr>
-    </tbody>
-</table>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/js/bootstrap.js">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+    <title>Loja supimpa</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 ">
+        <div class="container-fluid justify-content-between">
+            <a class="navbar-brand " href="#"><img class="logo" src="./img/Logo/supimpa.png" alt="" srcset=""></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="p-5 text-center bg-image img">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="texto">
+                    <h1 class="mb-3">Bem Vindo a sapataria</h1>
+                    <h3 class="mb-3">Calçados Supimpa</h3>
+                    <a class="mt-3 btn btn-outline-dark btn-lg" href="#!" role="button">Call to action</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section class="container-fluid listaModelos">
+        <h1 class="mt-5 mb-5 text-center titulo">
+            Modelos em estoque</h3>
+            <table class="table mt-5 text-center table-bordered " border="1px" cellpadding="5px" cellspacing="0px">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Id_Modelo</th>
+                        <th scope="col">Quantidade</th>
+                        <th scope="col">Opções</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>
+                            <button type="button" class="btn btn-danger text-center" align="center">
+                                <span class="material-icons">
+                                    delete
+                                </span>Excluir
+                            </button>
+                            <button type="button" class="btn btn-secondary" align="center">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Alterar
+                            </button>
+                            <button type="button" class="btn btn-success" align="center">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Success
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>
+                            <button type="button" class="btn btn-danger text-center" align="center">
+                                <span class="material-icons">
+                                    delete
+                                </span>Excluir
+                            </button>
+                            <button type="button" class="btn btn-secondary" align="center">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Alterar
+                            </button>
+                            <button type="button" class="btn btn-success" align="center">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Success
+                            </button>
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="btn btn-danger text-center">
+                                <span class="material-icons">
+                                    delete
+                                </span>Excluir
+                            </button>
+                            <button type="button" class="btn btn-secondary">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Alterar
+                            </button>
+                            <button type="button" class="btn btn-success">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Success
+                            </button>
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="btn btn-danger text-center">
+                                <span class="material-icons">
+                                    delete
+                                </span>Excluir
+                            </button>
+                            <button type="button" class="btn btn-secondary">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Alterar
+                            </button>
+                            <button type="button" class="btn btn-success">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Success
+                            </button>
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="btn btn-danger text-center">
+                                <span class="material-icons">
+                                    delete
+                                </span>Excluir
+                            </button>
+                            <button type="button" class="btn btn-secondary">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Alterar
+                            </button>
+                            <button type="button" class="btn btn-success">
+                                <span class="material-icons">
+                                    upgrade
+                                </span>Success
+                            </button>
+                        </td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+</body>
+
+</html>
