@@ -1,6 +1,6 @@
-﻿
-<!DOCTYPE html>
-<html lang="en">
+﻿@{
+    ViewData["Title"] = "Home";
+}
 
 <head>
     <meta charset="UTF-8">
@@ -8,25 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=" ~/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="~/bootstrap/dist/js/bootstrap.js">
-    <link rel="stylesheet" href="~/css/style.css">
-    <title>Loja supimpa</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 </head>
 
-<body>
-
     <header>
-        <div class="p-5 text-center bg-image img">
-            <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="texto">
-                    <h1 class="mb-3">Bem Vindo a sapataria</h1>
-                    <h3 class="mb-3">Calçados Supimpa</h3>
-                    <a class="mt-3 btn btn-outline-dark btn-lg" href="#!" role="button">Call to action</a>
+        <div class="container-fluid justify-content-between">
+            <div class="p-5 text-center">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="texto  animate__animated animate__backInDown">
+                        <h1 class="mb-3 ">Bem Vindo a sapataria</h1>
+                        <h3 class="mb-3">Calçados Supimpa</h3>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="container inicio">
+    <section class="container inicio animate__animated animate__backInLeft">
 
         <h1 class="mt-5 mb-5 text-center titulo">Um pouco de nossa história</h1>
         <p class="lead font-weight-normal font-primary text-center texto-historia">
@@ -42,17 +42,22 @@
             foder uma hora ganha algo
         </p>
 
-        <div class="mt-5 row row-cols-1 row-cols-md-2 sla">
-            <div class="col mb-3">
-                <div class="card align-items-justify">
-                    <img src="~/img/relogio.png" class="card-img-top icones-svg" alt="...">
-                    <div class="card-body text-justify">
-                        <h5 class="card-title">Redução de tempo em filas</h5>
-                        <p class="card-text">Compras 100% online e produto totalmente garantido.</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card align-items-justify">
+                            <img src="~/img/relogio.png" class="card-img-top icones-svg" alt="...">
+                            <div class="card-body text-justify">
+                                <h5 class="card-title">Redução de tempo em filas</h5>
+                                <p class="card-text">Compras 100% online e produto totalmente garantido.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col mb-3">
+
+            <div class="col-sm-6">
                 <div class="card">
                     <img class="icones-svg card-img-top" src="~/img/nike.png" alt="...">
                     <div class="card-body">
@@ -61,7 +66,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col mb-3">
+
+            <div class="col-sm-6">
                 <div class="card">
                     <img class="icones-svg card-img-top" src="~/img/prancheta.png" alt="...">
                     <div class="card-body">
@@ -74,6 +80,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col mb-3">
                 <div class="card">
                     <img class="icones-svg card-img-top" src="~/img/caixa.png" alt="...">
@@ -86,11 +93,10 @@
                     </div>
                 </div>
             </div>
+
         </div>
+
         <div class="mt-3 text-center">
-            <a href="produtos.html"><button type="button" class="btn btn-primary button ">Nossos produtos</button></a>
+            <a asp-controller="Home" asp-action="Produtos"><button type="button" class="btn btn-primary button ">Nossos produtos</button></a>
         </div>
     </section>
-</body>
-
-</html>

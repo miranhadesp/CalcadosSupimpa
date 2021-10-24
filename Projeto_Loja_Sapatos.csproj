@@ -6,6 +6,11 @@
 
   <ItemGroup>
     <Compile Remove="Views\Home\CadastroFornecedor.cs" />
+    <Compile Remove="Views\Produtos\Produtos.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Produtos\Produtos.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,7 +30,6 @@
     <Folder Include="Views\Cliente\" />
     <Folder Include="Views\Fornecedor\" />
     <Folder Include="Views\Modelos\" />
-    <Folder Include="Views\Produtos\" />
     <Folder Include="Views\Venda\" />
   </ItemGroup>
 

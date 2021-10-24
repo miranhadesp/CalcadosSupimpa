@@ -25,32 +25,32 @@ namespace Projeto_Loja_Sapatos.Controllers
 
         public IActionResult Cliente()
         {
-            return View();
+            return View("Views/Cliente/CadastrarCliente.cshtml");
         }
 
-        public IActionResult CadastroFornecedor()
+        public IActionResult CadastrarFornecedor()
         {
-            return View();
+            return View("Views/Fornecedor/CadastroFornecedor.cshtml");
         }
 
         public IActionResult ListarFornecedor()
         {
-            return View();
+            return View("Views/Fornecedor/ListarFornecedor.cshtml");
         }
 
-        public IActionResult ListarModelos()
+        public IActionResult Modelos()
         {
-            return View();
+            return View("Views/Modelos/ListarModelos.cshtml");
         }
 
-        public IActionResult ListarVendas()
+        public IActionResult Vendas()
         {
-            return View();
+            return View("Views/Vendas/ListarVendas.cshtml");
         }
 
         public IActionResult Produtos()
         {
-            return View();
+            return View("Views/Produtos/Produto.cshtml");
         }
 
 
