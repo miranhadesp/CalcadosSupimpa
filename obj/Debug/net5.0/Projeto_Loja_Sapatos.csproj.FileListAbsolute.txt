@@ -152,3 +152,161 @@ C:\Users\vitor\Desktop\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\L
 C:\Users\vitor\Desktop\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Modelos\ListarModelos.cshtml.g.cs
 C:\Users\vitor\Desktop\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Vendas\ListarVendas.cshtml.g.cs
 C:\Users\vitor\Desktop\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Produto.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\appsettings.json
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.exe
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.deps.json
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.runtimeconfig.json
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.runtimeconfig.dev.json
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\ref\Projeto_Loja_Sapatos.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.pdb
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.Views.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.Views.pdb
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.AssemblyInfoInputs.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.AssemblyInfo.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorAssemblyInfo.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorAssemblyInfo.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\staticwebassets\Projeto_Loja_Sapatos.StaticWebAssets.Manifest.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\staticwebassets\Projeto_Loja_Sapatos.StaticWebAssets.xml
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\scopedcss\bundle\Projeto_Loja_Sapatos.styles.css
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.TagHelpers.input.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.TagHelpers.output.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorCoreGenerate.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Cliente\CadastrarCliente.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\CadastroFornecedor.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\ListarFornecedor.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Modelos\ListarModelos.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Produto.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Vendas\ListarVendas.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorTargetAssemblyInfo.cache
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorTargetAssemblyInfo.cs
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.Views.pdb
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.csproj.CopyComplete
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\ref\Projeto_Loja_Sapatos.dll
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.pdb
+C:\Users\Diogo\Desktop\Projeto calçado\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.genruntimeconfig.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\appsettings.json
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.exe
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.deps.json
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.runtimeconfig.json
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.runtimeconfig.dev.json
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\ref\Projeto_Loja_Sapatos.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.pdb
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.Views.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Projeto_Loja_Sapatos.Views.pdb
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.csproj.AssemblyReference.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.AssemblyInfoInputs.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.AssemblyInfo.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.csproj.CoreCompileInputs.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorAssemblyInfo.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorAssemblyInfo.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\staticwebassets\Projeto_Loja_Sapatos.StaticWebAssets.Manifest.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\staticwebassets\Projeto_Loja_Sapatos.StaticWebAssets.xml
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\scopedcss\bundle\Projeto_Loja_Sapatos.styles.css
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.TagHelpers.input.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.TagHelpers.output.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorCoreGenerate.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Cliente\CadastrarCliente.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\CadastroFornecedor.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\ListarFornecedor.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Modelos\ListarModelos.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Produto.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Vendas\ListarVendas.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorTargetAssemblyInfo.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorTargetAssemblyInfo.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.Views.pdb
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\ref\Projeto_Loja_Sapatos.dll
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.pdb
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.genruntimeconfig.cache
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.csproj.CopyComplete
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Home\_Header.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Home\_Section.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\_Salto.cshtml.g.cs
+C:\Users\Kelberth-Desktop\Desktop\CalcadosSupimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\_Tenis.cshtml.g.cs
