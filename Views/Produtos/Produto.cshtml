@@ -1,6 +1,6 @@
-﻿@{
-    ViewData["Title"] = "Produtos";
-}
+﻿@model IEnumerable<Projeto_Loja_Sapatos.Models.Modelos>
+
+@{ ViewData["Title"] = "Produtos"; }
 
 <head>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css">
@@ -14,7 +14,10 @@
 <h1 class="mt-5 text-center titulo mb-5 animate__animated animate__backInUp">Nosso catalogo</h1>
 <div class="row animate__animated animate__backInLeft">
 
-        @await Html.PartialAsync("_Tenis.cshtml")
-        @await Html.PartialAsync("_Salto.cshtml")
+    @*@await Html.PartialAsync("Index.cshtml")*@
+    <h1>Tenis</h1>
+    @await Html.PartialAsync("_Tenis.cshtml", Model)
+    <h1>Salto</h1>
+    @await Html.PartialAsync("_Salto.cshtml", Model)
 
 </div>

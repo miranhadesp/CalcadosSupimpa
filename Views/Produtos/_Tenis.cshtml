@@ -1,68 +1,58 @@
-﻿    <div class="col-sm-4">
-        <div class="card">
-            <img class="img-salto" src="~/img/Sapatos/air-max.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                    This is a longer card with supporting text below as a natural lead-in to
-                    additional content.
-                </p>
-                <p class="card-text">Valor : R$450.00</p>
+﻿@model IEnumerable<Projeto_Loja_Sapatos.Models.Modelos>
 
-                <div class="card">
-                    <small class="text-muted">
-                        <button type="button"
-                                class="btn btn-primary button-price">
-                            Comprar
-                        </button>
-                    </small>
-                </div>
-            </div>
-        </div>
-        </div>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id_fornecedor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoRef)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tamanho)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            if (item.CodigoRef.Contains("Tenis"))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id_fornecedor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoRef)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tamanho)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id"> Editar </a> |
+                        <a asp-action="Details" asp-route-id="@item.Id"> Detalhes</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id"> Delete</a> |
 
-    <div class="col-sm-4">
-        <div class="card">
-            <img class="img-salto" src="~/img/Sapatos/air-max.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                    This is a longer card with supporting text below as a natural lead-in to
-                    additional content.
-                </p>
-                <p class="card-text">Valor : R$450.00</p>
-
-                <div class="card">
-                    <small class="text-muted">
-                        <button type="button"
-                                class="btn btn-primary button-price">
-                            Comprar
-                        </button>
-                    </small>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4">
-        <div class="card">
-            <img class="img-salto" src="~/img/Sapatos/jordan.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                    This is a longer card with supporting text below as a natural lead-in to
-                    additional content.
-                </p>
-                <p class="card-text">Valor : R$450.00</p>
-
-                <div class="card">
-                    <small class="text-muted">
-                        <button type="button"
-                                class="btn btn-primary button-price">
-                            Comprar
-                        </button>
-                    </small>
-                </div>
-            </div>
-        </div>
-    </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

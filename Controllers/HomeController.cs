@@ -53,7 +53,10 @@ namespace Projeto_Loja_Sapatos.Controllers
             return View("Views/Produtos/Produto.cshtml");
         }
 
-
+        public IActionResult Login()
+        {
+            return View("Views/Login/Logar.cshtml");
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
