@@ -47,7 +47,10 @@ namespace Projeto_Loja_Sapatos.Controllers
         {
             return View("Views/Vendas/ListarVendas.cshtml");
         }
-
+        public IActionResult Vender()
+        {
+            return View("Views/Vendas/Vender.cshtml");
+        }
         public IActionResult Produtos()
         {
             return View("Views/Produtos/Produto.cshtml");

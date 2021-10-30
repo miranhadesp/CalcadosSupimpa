@@ -47,6 +47,11 @@ h1 .titulo {
 .card-body {
   line-height: 30px;
 }
+.modelo{
+    width:50%;
+    border:1px solid black;
+    padding:3px;
+}
 
 
 
