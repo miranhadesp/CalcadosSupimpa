@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kelberth-Desktop\\Desktop\\CalcadosSupimpa\\CalcadosSupimpa\\Projeto_Loja_Sapatos.csproj": {}
+    "G:\\Meu Drive\\Programação\\Aulas Lets Code\\Projeto_Sapato_Supimpa\\CalcadosSupimpa-main\\Projeto_Loja_Sapatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kelberth-Desktop\\Desktop\\CalcadosSupimpa\\CalcadosSupimpa\\Projeto_Loja_Sapatos.csproj": {
+    "G:\\Meu Drive\\Programação\\Aulas Lets Code\\Projeto_Sapato_Supimpa\\CalcadosSupimpa-main\\Projeto_Loja_Sapatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kelberth-Desktop\\Desktop\\CalcadosSupimpa\\CalcadosSupimpa\\Projeto_Loja_Sapatos.csproj",
+        "projectUniqueName": "G:\\Meu Drive\\Programação\\Aulas Lets Code\\Projeto_Sapato_Supimpa\\CalcadosSupimpa-main\\Projeto_Loja_Sapatos.csproj",
         "projectName": "Projeto_Loja_Sapatos",
-        "projectPath": "C:\\Users\\Kelberth-Desktop\\Desktop\\CalcadosSupimpa\\CalcadosSupimpa\\Projeto_Loja_Sapatos.csproj",
+        "projectPath": "G:\\Meu Drive\\Programação\\Aulas Lets Code\\Projeto_Sapato_Supimpa\\CalcadosSupimpa-main\\Projeto_Loja_Sapatos.csproj",
         "packagesPath": "C:\\Users\\Kelberth-Desktop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kelberth-Desktop\\Desktop\\CalcadosSupimpa\\CalcadosSupimpa\\obj\\",
+        "outputPath": "G:\\Meu Drive\\Programação\\Aulas Lets Code\\Projeto_Sapato_Supimpa\\CalcadosSupimpa-main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
