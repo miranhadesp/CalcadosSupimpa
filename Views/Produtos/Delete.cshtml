@@ -43,9 +43,9 @@
         </dd>
     </dl>
     
-    <form asp-action="Delete">
+    <form class="form-group" asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a type="button" class="btn btn-info text-center" align="center" asp-action="Produto">Back to List</a>
     </form>
 </div>

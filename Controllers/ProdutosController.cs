@@ -24,10 +24,6 @@ namespace Projeto_Loja_Sapatos.Controllers
         {
             return View(await _context.Modelos.ToListAsync());
         }
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Modelos.ToListAsync());
-        }
 
         // GET: Produtos/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -64,7 +60,7 @@ namespace Projeto_Loja_Sapatos.Controllers
             {
                 _context.Add(modelos);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Produto));
             }
             return View(modelos);
         }
@@ -115,7 +111,7 @@ namespace Projeto_Loja_Sapatos.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Produto));
             }
             return View(modelos);
         }
@@ -146,7 +142,7 @@ namespace Projeto_Loja_Sapatos.Controllers
             var modelos = await _context.Modelos.FindAsync(id);
             _context.Modelos.Remove(modelos);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Produto));
         }
 
         private bool ModelosExists(int id)
