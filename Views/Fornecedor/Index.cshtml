@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Projeto_Loja_Sapatos.Models.Fornecedor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/js/bootstrap.js">
+    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+<tr>
+    <th><h1 class="mt-5 text-center titulo mb-5 animate__animated animate__backInUp">Fornecedores</h1></th>
+    <th><a type="button" class="btn btn-success text-center" align="center" asp-action="Create">Adicionar</a></th>
+</tr>
+
+    <table class="table mt-5 text-center table-bordered animate__animated animate__backInUp" border="1px" cellpadding="5px" cellspacing="0px">
+        <thead class="table-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CNPJ)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CNPJ)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Endereco)
+                    </td>
+                    <td>
+                        <a type="button" class="btn btn-success text-center" align="center" asp-action="Edit" asp-route-id="@item.Id"> Editar </a>
+                        <a type="button" class="btn btn-danger text-center" align="center" asp-action="Delete" asp-route-id="@item.Id"> Deletar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

@@ -5,11 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20211101013307_Add_Quantidade_Modelos.cs" />
+    <Compile Remove="Migrations\20211101013307_Add_Quantidade_Modelos.Designer.cs" />
+    <Compile Remove="Migrations\20211101014605_Clientes.cs" />
+    <Compile Remove="Migrations\20211101014605_Clientes.Designer.cs" />
     <Compile Remove="Views\Home\CadastroFornecedor.cs" />
     <Compile Remove="Views\Produtos\Produtos.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Produtos\Details.cshtml" />
+    <Content Remove="Views\Produtos\Index.cshtml" />
     <Content Remove="Views\Produtos\Produtos.cshtml" />
   </ItemGroup>
 
@@ -28,8 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Cliente\" />
-    <Folder Include="Views\Fornecedor\" />
     <Folder Include="Views\Modelos\" />
     <Folder Include="Views\Venda\" />
   </ItemGroup>

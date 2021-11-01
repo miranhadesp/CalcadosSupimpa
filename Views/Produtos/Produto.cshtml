@@ -13,25 +13,22 @@
 
 </head>
 
-<h1 class="mt-5 text-center titulo mb-5 animate__animated animate__backInUp">Nosso catalogo</h1>
-
-<p>
+    <h1 class="mt-5 text-center titulo mb-5 animate__animated animate__backInUp">Nosso catalogo</h1>
     <a type="button" class="btn btn-success text-center" align="center" asp-action="Create">Adicionar Produto</a>
-</p>
 
 <div class="row animate__animated animate__backInLeft">
 
     @foreach (var item in Model)
     {
-        if (!categorias.Exists(x => x == item.CodigoRef.ToLower().Split("_")[0]))
+        if (!categorias.Exists(x => x == item.CodigoRef.ToLower().Split("-")[0]))
         {
             _modelos.Clear();
-            categorias.Add(item.CodigoRef.ToLower().Split("_")[0]);
-            <h1> @item.CodigoRef.ToLower().Split("_")[0] </h1>
+            categorias.Add(item.CodigoRef.ToLower().Split("-")[0]);
+            <h1> @item.CodigoRef.ToLower().Split("-")[0] </h1>
 
             foreach (var item2 in Model)
             {
-                if(item2.CodigoRef.ToLower().Split("_")[0] == item.CodigoRef.ToLower().Split("_")[0])
+                if(item2.CodigoRef.ToLower().Split("-")[0] == item.CodigoRef.ToLower().Split("-")[0])
                 {
                     _modelos.Add(new Modelos { CodigoRef = item2.CodigoRef, Cor = item2.Cor, Id = item2.Id, Id_fornecedor = item2.Id_fornecedor, Nome = item2.Nome, Tamanho = item2.Tamanho });
                 }
@@ -40,10 +37,5 @@
             @await Html.PartialAsync("_Categoria", _modelos)
         }
     }
-    @*<h1>Salto</h1>
-        @await Html.PartialAsync("_Salto.cshtml", Model)
-
-        <h1>Tenis</h1>
-        @await Html.PartialAsync("_Tenis.cshtml", Model)*@
 
 </div>

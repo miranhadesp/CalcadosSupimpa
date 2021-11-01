@@ -43,13 +43,10 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.Tamanho)
                     </td>
+
                     <td>
-
                         <a type="button" class="btn btn-success text-center" align="center" asp-action="Edit" asp-route-id="@item.Id"> Editar </a>
-                        <a type="button" class="btn btn-info text-center" align="center" asp-action="Details" asp-route-id="@item.Id"> Detalhes</a>
-                        <a type="button" class="btn btn-danger text-center" align="center" asp-action="Delete" asp-route-id="@item.Id"> Delete</a>
-
-
+                        <a type="button" class="btn btn-danger text-center" align="center" asp-action="Delete" asp-route-id="@item.Id"> Deletar</a>
                     </td>
                 </tr>
             //}
