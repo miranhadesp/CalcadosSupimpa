@@ -54,11 +54,19 @@ namespace Projeto_Loja_Sapatos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Id_fornecedor,Nome,CodigoRef,Cor,Tamanho")] Modelos modelos)
+        public async Task<IActionResult> Create([Bind("Id,Id_fornecedor,Nome,CodigoRef,Cor,Tamanho, Qtd")] ModeloViewModel modelos)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(modelos);
+
+                var estoque = new Estoque();
+
+                estoque.Id_Modelo = modelos.Id;
+                estoque.Qtd = modelos.Qtd;
+
+                _context.Add(estoque);
+
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Produto));
             }
@@ -86,7 +94,7 @@ namespace Projeto_Loja_Sapatos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Id_fornecedor,Nome,CodigoRef,Cor,Tamanho")] Modelos modelos)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Id_fornecedor,Nome,CodigoRef,Cor,Tamanho")] Modelo modelos)
         {
             if (id != modelos.Id)
             {

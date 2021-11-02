@@ -691,9 +691,6 @@ G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimp
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.TagHelpers.input.cache
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.TagHelpers.output.cache
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Projeto_Loja_Sapatos.RazorCoreGenerate.cache
-G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Cliente\CadastrarCliente.cshtml.g.cs
-G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\CadastroFornecedor.cshtml.g.cs
-G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\ListarFornecedor.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Home\_Header.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Home\_Section.cshtml.g.cs
@@ -701,9 +698,7 @@ G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimp
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Modelos\ListarModelos.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Create.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Delete.cshtml.g.cs
-G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Details.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Edit.cshtml.g.cs
-G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Index.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Produtos\Produto.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -885,3 +880,11 @@ C:\Users\Victor Augusto\Desktop\Victor\Lets Code\Projetos\CalcadosSupimpa\obj\De
 C:\Users\Victor Augusto\Desktop\Victor\Lets Code\Projetos\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Clientes\Delete.cshtml.g.cs
 C:\Users\Victor Augusto\Desktop\Victor\Lets Code\Projetos\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Clientes\Edit.cshtml.g.cs
 C:\Users\Victor Augusto\Desktop\Victor\Lets Code\Projetos\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Clientes\Index.cshtml.g.cs
+G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Clientes\Create.cshtml.g.cs
+G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Clientes\Delete.cshtml.g.cs
+G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Clientes\Edit.cshtml.g.cs
+G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Clientes\Index.cshtml.g.cs
+G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\Create.cshtml.g.cs
+G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\Delete.cshtml.g.cs
+G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\Edit.cshtml.g.cs
+G:\Meu Drive\Programação\Aulas Lets Code\Projeto_Sapato_Supimpa\CalcadosSupimpa\obj\Debug\net5.0\Razor\Views\Fornecedor\Index.cshtml.g.cs

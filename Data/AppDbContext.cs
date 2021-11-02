@@ -16,12 +16,20 @@ namespace Projeto_Loja_Sapatos.Data
 
         public DbSet<Fornecedor> Fornecedores { get; set; }
 
-        public DbSet<Modelos> Modelos { get; set; }
+        public DbSet<Modelo> Modelos { get; set; }
 
         public DbSet<Cliente> Clientes { get; set; }
 
+        public DbSet<Estoque> Estoques { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Estoque>()
+                    .HasOne(e => e.ModeloNavigation)
+                    .WithMany(m => m.Estoques)
+                    .HasForeignKey(e => e.Id_Modelo)
+                    .HasConstraintName("FK_ModelosEstoque");
+
             modelBuilder.Entity<Fornecedor>()
                    .Property(p => p.Nome)
                    .HasMaxLength(200);
@@ -35,9 +43,9 @@ namespace Projeto_Loja_Sapatos.Data
                     .HasMaxLength(14)
                     .IsRequired();
 
-            modelBuilder.Entity<Modelos>()
+            modelBuilder.Entity<Modelo>()
                     .HasData(
-                        new Modelos { Id = 1, Id_fornecedor = 2, Nome = "Sapatênis", CodigoRef = "a321", Cor = "Rosa", Tamanho = 34 }
+                        new Modelo { Id = 1, Id_fornecedor = 2, Nome = "Sapatênis", CodigoRef = "a321", Cor = "Rosa", Tamanho = 34 }
                     );
 
             modelBuilder.Entity<Fornecedor>()
@@ -59,12 +67,8 @@ namespace Projeto_Loja_Sapatos.Data
                    .HasMaxLength(200);
 
             modelBuilder.Entity<Cliente>()
-                    .Property(p => p.Idade)
-                    .HasMaxLength(3);
-
-            modelBuilder.Entity<Cliente>()
                     .HasData(
-                        new Cliente {  Id = 1, Nome = "José", Cpf = "12547852", Endereco = "Rua Dr Anão", Idade = 21}
+                        new Cliente {  Id = 1, Nome = "José", Cpf = "12547852", Endereco = "Rua Dr Anão", Idade = 21 }
                     );
         }
     }

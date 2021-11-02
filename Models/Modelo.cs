@@ -6,9 +6,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projeto_Loja_Sapatos.Models
 {
-    public class Modelos
+    public class Modelo
     {
+        internal virtual ICollection<Estoque> Estoques { get; set; }
+
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int Id { get; set; }
 
         public int Id_fornecedor { get; set; }
@@ -20,5 +23,6 @@ namespace Projeto_Loja_Sapatos.Models
         public string Cor { get; set; }
 
         public int Tamanho { get; set; }
+
     }
 }

@@ -9,8 +9,8 @@ using Projeto_Loja_Sapatos.Data;
 namespace Projeto_Loja_Sapatos.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20211101020011_Clientes")]
-    partial class Clientes
+    [Migration("20211101230428_clientes")]
+    partial class clientes
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -35,7 +35,6 @@ namespace Projeto_Loja_Sapatos.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.Property<int>("Idade")
-                        .HasMaxLength(3)
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -45,6 +44,16 @@ namespace Projeto_Loja_Sapatos.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Clientes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Cpf = "12547852",
+                            Endereco = "Rua Dr Anão",
+                            Idade = 21,
+                            Nome = "José"
+                        });
                 });
 
             modelBuilder.Entity("Projeto_Loja_Sapatos.Models.Fornecedor", b =>
