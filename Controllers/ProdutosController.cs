@@ -22,7 +22,25 @@ namespace Projeto_Loja_Sapatos.Controllers
         // GET: Produtos
         public async Task<IActionResult> Produto()
         {
-            return View(await _context.Modelos.ToListAsync());
+
+            var modelos = await _context.Modelos.ToListAsync();
+
+            List<ModeloViewModel> modelosViewModel = new List<ModeloViewModel>();
+            foreach(var e in modelos)
+            {
+                var quantidade = await _context.Estoques.FirstOrDefaultAsync(q => q.Id == e.Id_fornecedor);
+
+                ModeloViewModel modeloVM = new ModeloViewModel();
+
+                modeloVM.CodigoRef = e.CodigoRef;
+                modeloVM.Nome = e.Nome;
+                modeloVM.Cor = e.Cor;
+                modeloVM.Id = e.Id;
+                modeloVM.Id_fornecedor = e.Id_fornecedor;
+                modeloVM.Tamanho = e.Tamanho;
+                modeloVM.Qtd = Convert.ToInt32(quantidade);
+            }
+            return View(modelosViewModel);
         }
 
         // GET: Produtos/Details/5
@@ -52,19 +70,19 @@ namespace Projeto_Loja_Sapatos.Controllers
         // POST: Produtos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Id_fornecedor,Nome,CodigoRef,Cor,Tamanho, Qtd")] ModeloViewModel modelos)
+        public async Task<IActionResult> Create([Bind("Id,Id_fornecedor,Nome,CodigoRef,Cor,Tamanho,Qtd")] ModeloViewModel modelos)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(modelos);
-
                 var estoque = new Estoque();
 
                 estoque.Id_Modelo = modelos.Id;
                 estoque.Qtd = modelos.Qtd;
 
+                _context.Add(modelos);
                 _context.Add(estoque);
 
                 await _context.SaveChangesAsync();
@@ -94,7 +112,7 @@ namespace Projeto_Loja_Sapatos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Id_fornecedor,Nome,CodigoRef,Cor,Tamanho")] Modelo modelos)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Id_fornecedor,Nome,CodigoRef,Cor,Tamanho,Qtd")] ModeloViewModel modelos)
         {
             if (id != modelos.Id)
             {

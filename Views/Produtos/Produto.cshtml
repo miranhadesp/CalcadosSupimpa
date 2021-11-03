@@ -1,16 +1,15 @@
-﻿@model IEnumerable<Projeto_Loja_Sapatos.Models.Modelo>
+﻿@model IEnumerable<Projeto_Loja_Sapatos.Models.ModeloViewModel>
 
 @{ ViewData["Title"] = "Produtos";
     List<string> categorias = new List<string>();
-    List<Projeto_Loja_Sapatos.Models.Modelo> _modelos = new List<Projeto_Loja_Sapatos.Models.Modelo>();
-
+    List<Projeto_Loja_Sapatos.Models.ModeloViewModel> _modelos = new List<Projeto_Loja_Sapatos.Models.ModeloViewModel>();
 }
+
 <head>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/js/bootstrap.js">
     <link rel="stylesheet" href="~/css/site.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
 </head>
 
     <h1 class="mt-5 text-center titulo mb-5 animate__animated animate__backInUp">Nosso catalogo</h1>
@@ -30,7 +29,7 @@
             {
                 if(item2.CodigoRef.ToLower().Split("_")[0] == item.CodigoRef.ToLower().Split("_")[0])
                 {
-                    _modelos.Add(new Modelo { CodigoRef = item2.CodigoRef, Cor = item2.Cor, Id = item2.Id, Id_fornecedor = item2.Id_fornecedor, Nome = item2.Nome, Tamanho = item2.Tamanho });
+                    _modelos.Add(new ModeloViewModel { CodigoRef = item2.CodigoRef, Cor = item2.Cor, Id = item2.Id, Id_fornecedor = item2.Id_fornecedor, Nome = item2.Nome, Tamanho = item2.Tamanho, Qtd = item2.Qtd });
                 }
             }
 

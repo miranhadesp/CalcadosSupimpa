@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Projeto_Loja_Sapatos.Models.Modelo>
+﻿@model IEnumerable<Projeto_Loja_Sapatos.Models.ModeloViewModel>
 
 <table class="table mt-5 text-center table-bordered animate__animated animate__backInUp" border="1px" cellpadding="5px" cellspacing="0px">
     <thead class="table-dark">
@@ -18,6 +18,9 @@
             <th scope="col">
                 @Html.DisplayNameFor(model => model.Tamanho)
             </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Qtd)
+            </th>
             <th scope="col"> Ação</th>
         </tr>
     </thead>
@@ -27,28 +30,31 @@
         {
             //if (item.CodigoRef.ToLower().Contains(ViewData["Categoria"].ToString()))
             //{
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Id_fornecedor)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Nome)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.CodigoRef)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Cor)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Tamanho)
-                    </td>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id_fornecedor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoRef)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tamanho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qtd)
+            </td>
 
-                    <td>
-                        <a type="button" class="btn btn-success text-center" align="center" asp-action="Edit" asp-route-id="@item.Id"> Editar </a>
-                        <a type="button" class="btn btn-danger text-center" align="center" asp-action="Delete" asp-route-id="@item.Id"> Deletar</a>
-                    </td>
-                </tr>
+            <td>
+                <a type="button" class="btn btn-success text-center" align="center" asp-action="Edit" asp-route-id="@item.Id"> Editar </a>
+                <a type="button" class="btn btn-danger text-center" align="center" asp-action="Delete" asp-route-id="@item.Id"> Deletar</a>
+            </td>
+        </tr>
             //}
         }
     </tbody>

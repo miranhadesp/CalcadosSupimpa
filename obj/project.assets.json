@@ -7150,24 +7150,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kelberth-Desktop\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Victor Augusto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Meu Drive\\Programação\\Aulas Lets Code\\Projeto_Sapato_Supimpa\\CalcadosSupimpa\\Projeto_Loja_Sapatos.csproj",
+      "projectUniqueName": "C:\\Users\\Victor Augusto\\Desktop\\Victor\\Lets Code\\Projetos\\CalcadosSupimpa\\Projeto_Loja_Sapatos.csproj",
       "projectName": "Projeto_Loja_Sapatos",
-      "projectPath": "G:\\Meu Drive\\Programação\\Aulas Lets Code\\Projeto_Sapato_Supimpa\\CalcadosSupimpa\\Projeto_Loja_Sapatos.csproj",
-      "packagesPath": "C:\\Users\\Kelberth-Desktop\\.nuget\\packages\\",
-      "outputPath": "G:\\Meu Drive\\Programação\\Aulas Lets Code\\Projeto_Sapato_Supimpa\\CalcadosSupimpa\\obj\\",
+      "projectPath": "C:\\Users\\Victor Augusto\\Desktop\\Victor\\Lets Code\\Projetos\\CalcadosSupimpa\\Projeto_Loja_Sapatos.csproj",
+      "packagesPath": "C:\\Users\\Victor Augusto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Victor Augusto\\Desktop\\Victor\\Lets Code\\Projetos\\CalcadosSupimpa\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Kelberth-Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Victor Augusto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

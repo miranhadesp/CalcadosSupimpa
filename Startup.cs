@@ -26,10 +26,10 @@ namespace Projeto_Loja_Sapatos
         public void ConfigureServices(IServiceCollection services)
         {
             //string sqlConnection = Configuration.GetConnectionString("VitorConnection");
-            //string sqlConnection = Configuration.GetConnectionString("VictorConnection");
+            string sqlConnection = Configuration.GetConnectionString("VictorConnection");
             //string sqlConnection = Configuration.GetConnectionString("DiogoConnection");
             //string sqlConnection = Configuration.GetConnectionString("RodrigoConnection");
-            string sqlConnection = Configuration.GetConnectionString("KelberthConnection");
+            //string sqlConnection = Configuration.GetConnectionString("KelberthConnection");
 
             services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(sqlConnection));
 
